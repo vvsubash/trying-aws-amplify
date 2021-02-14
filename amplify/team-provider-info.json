@@ -10,6 +10,17 @@
       "StackName": "amplify-tryingawsamplify-dev-221642",
       "StackId": "arn:aws:cloudformation:ap-south-1:670990119272:stack/amplify-tryingawsamplify-dev-221642/39961cb0-6ee4-11eb-b152-06b7ac16755a",
       "AmplifyAppId": "dsrje3krp9war"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dsrje3krp9war",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "tryingawsamplifybe17a27d": {}
+      }
     }
   }
 }
