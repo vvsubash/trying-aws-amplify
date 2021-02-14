@@ -11,4 +11,5 @@ frontend:
         - "yarn build"
   artifacts:
     baseDirectory: "frontend-app/dist"
+    discard-paths: yes
     files: "**/*"
