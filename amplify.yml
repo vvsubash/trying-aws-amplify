@@ -1,0 +1,13 @@
+version 1
+
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd frontend-app
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    files:
+        - ./frontend-app/dist
