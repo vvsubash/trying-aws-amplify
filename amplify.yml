@@ -1,13 +1,13 @@
-version 1
+version: 1
 
 frontend:
   phases:
     preBuild:
       commands:
-        - cd frontend-app
+        - "cd frontend-app"
     build:
       commands:
-        - npm run build
+        - "npm run build"
   artifacts:
     files:
-        - ./frontend-app/dist
+      - "./frontend-app/dist/*"
