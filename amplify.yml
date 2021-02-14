@@ -10,6 +10,5 @@ frontend:
       commands:
         - "yarn build"
   artifacts:
-    baseDirectory: "dist"
-    files:
-      - "**/*"
+    baseDirectory: "frontend-app/dist"
+    files: "**/*"
