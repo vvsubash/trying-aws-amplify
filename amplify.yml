@@ -5,9 +5,10 @@ frontend:
     preBuild:
       commands:
         - "cd frontend-app"
+        - "yarn"
     build:
       commands:
-        - "npm run build"
+        - "yarn build"
   artifacts:
-    files:
-      - "./frontend-app/dist/*"
+    baseDirectory: "frontend-app/dist"
+    files: "**/*"
