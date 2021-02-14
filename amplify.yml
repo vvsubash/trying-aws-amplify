@@ -10,6 +10,6 @@ frontend:
       commands:
         - "yarn build"
   artifacts:
-    baseDirectory: frontend-app/dist2
+    baseDirectory: frontend-app/dist
     discard-paths: yes
     files: "**/*"
